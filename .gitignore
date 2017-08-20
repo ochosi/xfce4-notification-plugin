@@ -1,3 +1,4 @@
+*.o
 *.gmo
 *.la
 *.lo
@@ -12,7 +13,14 @@ Makefile.in
 aclocal.m4
 autom4te.cache
 compile
-config*
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+configure.ac
 depcomp
 install-sh
 intltool*
@@ -21,7 +29,6 @@ ltmain.sh
 missing
 mkinstalldirs
 panel-plugin/*.desktop
-panel-plugin/*.desktop.in
 po/.intltool-merge-cache
 po/Makefile.in.in
 po/POTFILES
