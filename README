@@ -1,0 +1,22 @@
+What is it?
+===========
+
+This is a notification plugin for the Xfce panel (version 4.12 or higher).
+It shows the notification log as managed by xfce4-notifyd, Xfce's notification
+daemon.
+
+
+Installation
+============
+
+The file 'INSTALL' contains generic installation instructions. For more
+detailed information, visit the Notification plugin website at
+
+
+
+How to report bugs?
+===================
+
+Bugs should be reported to the Xfce bug tracking system
+(http://bugzilla.xfce.org, product 'Xfce Panel Plugins', Component
+'Notification plugin'). You will need to create an account for yourself.
