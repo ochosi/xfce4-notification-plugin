@@ -22,7 +22,7 @@ dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (C) 2017
         The Xfce development team. All rights reserved.])
-AC_INIT([xfce4-notification-plugin], [notification_version], [https://bugzilla.xfce.org/], [xfce4-notification-plugin])
+AC_INIT([xfce4-notification-plugin], [notification_plugin_version], [https://bugzilla.xfce.org/], [xfce4-notification-plugin])
 AC_PREREQ([2.50])
 AC_REVISION([xfce4_panel_version_build])
 
@@ -72,7 +72,8 @@ dnl ***********************************
 dnl *** Check for required packages ***
 dnl ***********************************
 XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.12.0])
-XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.12.0])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.13.0])
+XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.10.0])
 
 dnl ***********************************
 dnl *** Check for debugging support ***
@@ -95,7 +96,6 @@ AC_SUBST([PLATFORM_LDFLAGS])
 AC_OUTPUT([
 Makefile
 icons/Makefile
-icons/48x48/Makefile
 icons/scalable/Makefile
 panel-plugin/Makefile
 po/Makefile.in
